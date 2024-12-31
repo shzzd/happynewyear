@@ -76,6 +76,7 @@ body {
     background-size: cover;
     animation: swing 4s ease-in-out infinite;
     transform-origin: top center;
+    z-index: 0;
 }
 
 #card2 {
@@ -92,6 +93,7 @@ body {
     background-size: cover;
     animation: swing 3s ease-in-out infinite;
     transform-origin: top center;
+    z-index: 2;
 }
 
 #card3 {
@@ -109,6 +111,7 @@ body {
     background-size: cover;
     animation: swing 3.7s ease-in-out infinite;
     transform-origin: top center;
+    z-index: 1;
 }
 
 #card4 {
@@ -125,6 +128,7 @@ body {
     background-size: cover;
     animation: swing 2s ease-in-out infinite;
     transform-origin: top center;
+    z-index: 0;
 }
 
 #card1::before, #card2::before, #card3::before, #card4::before{
