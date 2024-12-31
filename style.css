@@ -76,7 +76,7 @@ body {
     background-size: cover;
     animation: swing 4s ease-in-out infinite;
     transform-origin: top center;
-    z-index: 0;
+    z-index: 3;
 }
 
 #card2 {
